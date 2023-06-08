@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Roboto&family=Ubuntu:wght@500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #cbd1cf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  font-family: "Roboto", sans-serif;
+  font-family: "Ubuntu", sans-serif;
+  position: relative;
+}
+.container {
+  height: 650px;
+  width: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 25px;
+}
+
+button {
+  width: 199px;
+  height: 44px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 550;
+}
+.mode-btn:hover {
+  background-color: rgb(255, 69, 0);
+  border: none;
+  border-radius: 7px;
+  color: white;
+}
+.copy {
+  position: absolute;
+  font-size: 14px;
+  bottom: 12px;
+}
+@media (max-width: 788px) {
+  .container {
+    margin: 0 25px;
+    height: 400px;
+  }
+}
